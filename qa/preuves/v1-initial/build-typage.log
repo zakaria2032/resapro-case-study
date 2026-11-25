@@ -1,0 +1,4 @@
+$ npx tsc --noEmit -p tsconfig.json
+(code de sortie : 0)
+
+

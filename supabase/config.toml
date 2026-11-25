@@ -1,0 +1,30 @@
+# Configuration Supabase CLI (développement local uniquement)
+project_id = "resapro-demo"
+
+[api]
+port = 54321
+
+[db]
+port = 54322
+
+[studio]
+port = 54323
+
+[auth]
+site_url = "http://localhost:5173"
+
+[functions.create-checkout]
+verify_jwt = true
+
+# Stripe n'envoie pas de JWT
+[functions.stripe-webhook]
+verify_jwt = false
+
+# Jeton vérifié par la plateforme ET par la fonction (rôle admin contrôlé en base)
+[functions.admin-stats]
+verify_jwt = true
+
+# Journaux/analytique (Logflare + Vector) inutiles pour la démo locale ; sous Windows, Vector redémarre
+# en boucle faute d'accès au socket Docker. Désactivé : moins de conteneurs, démarrage plus rapide.
+[analytics]
+enabled = false

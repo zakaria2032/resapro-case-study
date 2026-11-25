@@ -1,0 +1,8 @@
+$ /usr/local/bin/gitleaks git <depot> --no-banner --no-color --redact --log-opts=1ddb2b90c800165f00488fcf4cdd10e2ed2c2a09 --report-format json --report-path <depot>/qa/preuves/v2-corrigee/gitleaks-historique.json --exit-code 1
+(code de sortie : 0)
+
+
+2:37PM INF Unknown SCM platform. Use --platform to include links in findings. host=
+2:37PM INF 19 commits scanned.
+2:37PM INF scanned ~366874 bytes (366.87 KB) in 118ms
+2:37PM INF no leaks found

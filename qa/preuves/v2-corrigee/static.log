@@ -1,0 +1,11 @@
+9 fichier(s) de test dans la version ; README : 9546 caractères, sections installation ✓, tests ✓, avertissement v1 ✓, limites ✓
+
+tests/admin.test.ts
+tests/cancel.test.ts
+tests/checkout.test.ts
+tests/frontend-secrets.test.ts
+tests/parcours.test.ts
+tests/rls.test.ts
+tests/roles.test.ts
+tests/storage.test.ts
+tests/webhook.test.ts

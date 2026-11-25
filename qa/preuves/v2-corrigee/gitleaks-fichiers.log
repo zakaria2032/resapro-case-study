@@ -1,0 +1,6 @@
+$ /usr/local/bin/gitleaks dir <tmp>/src --no-banner --no-color --redact --report-format json --report-path <depot>/qa/preuves/v2-corrigee/gitleaks-fichiers.json --exit-code 1
+(code de sortie : 0)
+
+
+2:37PM INF scanned ~226687 bytes (226.69 KB) in 27.7ms
+2:37PM INF no leaks found

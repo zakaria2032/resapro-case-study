@@ -1,0 +1,17 @@
+$ npx vite build --outDir <tmp>/dist
+(code de sortie : 0)
+
+vite v7.3.8 building client environment for production...
+transforming...
+✓ 82 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.43 kB │ gzip:   0.30 kB
+../dist/assets/index-gbJruf63.css    1.65 kB │ gzip:   0.70 kB
+../dist/assets/index-DqYeBzIg.js   460.82 kB │ gzip: 132.66 kB
+✓ built in 888ms
+
+
+(!) outDir <tmp>/dist is not inside project root and will not be emptied.
+Use --emptyOutDir to override.
+

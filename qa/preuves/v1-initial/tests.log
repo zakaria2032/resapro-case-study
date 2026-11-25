@@ -1,0 +1,5 @@
+$ npx vitest run --reporter=json --outputFile=<depot>\qa\preuves\v1-initial\vitest.json
+(code de sortie : 1)
+
+JSON report written to <depot>/qa/preuves/v1-initial/vitest.json
+

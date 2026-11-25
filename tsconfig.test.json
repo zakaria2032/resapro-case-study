@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "tests",
+    "vitest.config.ts",
+    "supabase/functions/**/handler.ts",
+    "supabase/functions/_shared/types.ts",
+    "supabase/functions/_shared/http.ts"
+  ],
+  "exclude": [
+    "tests/deno"
+  ]
+}

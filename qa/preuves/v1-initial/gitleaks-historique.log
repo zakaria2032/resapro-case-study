@@ -1,0 +1,7 @@
+$ ~/AppData/Local/Microsoft/WinGet/Packages/Gitleaks.Gitleaks_Microsoft.Winget.Source_8wekyb3d8bbwe\gitleaks.exe git <depot> --no-banner --no-color --redact --log-opts=d1f966914a9d7b63014fecbbd39c6d0c94bd5c91 --report-format json --report-path <depot>\qa\preuves\v1-initial\gitleaks-historique.json --exit-code 1
+(code de sortie : 0)
+
+
+2:36PM INF 1 commits scanned.
+2:36PM INF scanned ~149841 bytes (149.84 KB) in 318ms
+2:36PM INF no leaks found
